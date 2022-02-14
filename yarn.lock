@@ -1739,9 +1739,9 @@ flatted@^3.1.0:
   integrity sha512-JaTY/wtrcSyvXJl4IMFHPKyFur1sE9AUqc0QnhOaJ0CxHtAoIV8pYDzeEfAaNEtGkOfq4gr3LBFmdXW5mOQFnA==
 
 follow-redirects@^1.14.0:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.3.tgz#6ada78118d8d24caee595595accdc0ac6abd022e"
-  integrity sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
+  integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
 
 for-each@^0.3.2:
   version "0.3.3"
@@ -2862,20 +2862,33 @@ normalize-url@^6.0.1:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
-notion-client@^4.9.7:
-  version "4.9.7"
-  resolved "https://registry.yarnpkg.com/notion-client/-/notion-client-4.9.7.tgz#e4540f189de33a0e64e28d3e49ac06f448158bc8"
-  integrity sha512-G70rE5e14EELo7+Id0Sef2TwXIaCyVMi0F8S8/T1NYPAWNhU7GJfgf8Js2czfX0Ce5QOsHAlrdwq6ZeYcPkLyg==
+notion-client@^4.8.6:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/notion-client/-/notion-client-4.15.0.tgz#c44db95d7bf53ae1a7348ee4d6d8559c44ac9e94"
+  integrity sha512-d43RSaPQsHj7oPD3NbHiu3nw+6fRp3HDa2tk/QZ70YHWXWvk/JZXV2EkKadxWTbDd2sRq8XFi3ac55iH1Id+rA==
   dependencies:
     got "^11.8.1"
-    notion-types "^4.8.2"
-    notion-utils "^4.8.6"
+    notion-types "^4.15.0"
+    notion-utils "^4.15.0"
     p-map "^4.0.0"
+
+notion-types@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/notion-types/-/notion-types-4.15.0.tgz#958c02fa7788dd796c85c2edf42d88f0284072f7"
+  integrity sha512-Ssig+eOldXcjH84Fa1VJTcgigxzN1YaLFk8L4e+8XQ4D+uN2aJdOAcXqjcBvTmyeOzfzMlw8EjELogb1sQPflw==
 
 notion-types@^4.8.2:
   version "4.8.2"
   resolved "https://registry.yarnpkg.com/notion-types/-/notion-types-4.8.2.tgz#b7b1182a595f1a526c3617578874667cdf7e52fe"
   integrity sha512-WfmEv/3hgHkXtmmAL2rlS9i7MAdc2pIJZGoeqi8GnBK58XMW6zgkNFjrUBXJtaDiOjQ6nfVE/yepTj79LGhERw==
+
+notion-utils@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/notion-utils/-/notion-utils-4.15.0.tgz#648dcad0d23981246f4abcd0f5c3b8bc2ef5ff54"
+  integrity sha512-nYty1Zs+p5/kenUgsHxR9/90cu+sc5zcUOJPIh3XAon+tPUe+7XYAk/v07VMgqW1PGH2cZ5/0KWm8NPRXAfNgg==
+  dependencies:
+    notion-types "^4.15.0"
+    p-queue "6"
 
 notion-utils@^4.8.6:
   version "4.8.6"
@@ -3027,7 +3040,7 @@ p-map@^4.0.0:
   dependencies:
     aggregate-error "^3.0.0"
 
-p-queue@^6.6.1:
+p-queue@6, p-queue@^6.6.1:
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-6.6.2.tgz#2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426"
   integrity sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==
